@@ -56,7 +56,6 @@ body{
     max-width: 570px;
     height: auto;
     border-radius: 100px;
-    background-color: #000000;
 }
 .text-cont{
     height: auto;
@@ -158,6 +157,52 @@ body{
     font-weight: 500;
 }
 .profe-cont{
-    max-width: 340px;
+    width: auto;
     height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    background-color: #EBF0F4;
+}
+.profe-cont h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0B5293;
+}
+.img-profe{
+    margin: auto;
+    max-width: 570px;
+}
+.nombre-profe{
+    font-size: 40px;
+    color: #ffffff;
+}
+.nosotros{
+    background-color: #edf5f0;
+}
+.nosotros-cont{
+    margin: auto;
+    max-width: 750px;
+    padding: 20px 20px;
+    text-align: center;
+}
+.nosotros-cont h3{
+    color: #0B5293;
+    font-size: 25px;
+}
+.footer-cont{
+    padding-top: 30px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #83b993;
+}
+.footer-cont p{
+    font-size: 20px;
+    color: #ffffff;
+}
+.media-icons{
+    font-size: 40px;
+    color: #ffffff;
+    margin-right: 10px;
 }
