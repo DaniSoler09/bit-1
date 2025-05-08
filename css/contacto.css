@@ -6,7 +6,7 @@ body{
 .cont-logo-nav{
     display: flex;
     height: 100px;
-    background-color: #5E86AC;
+    background-color: #0a4881;
 }
 .cont-logo-rana{
   margin-right: 0px;
@@ -24,7 +24,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 3;
-    background-color: #5E86AC ;
+    background-color: #0a4881 ;
 }
 .container-fluid{
     max-width: 700px;
@@ -74,7 +74,8 @@ body{
     padding-top: 25px;
     padding-bottom: 15px;
     padding-left: 50px;
-    background-color: #22803e;
+    padding-right: 20px;
+    background-color: #4e8a60;
 }
 .ubicanos-info-cont h2{
     color: #ffffff;
@@ -94,7 +95,7 @@ body{
 .form-cont-opciones{
     margin: auto;
     max-width: 950px;
-    background-color: #5E86AC;
+    background-color: #0a4881;
     padding-bottom: 25px;
     padding-top: 30px;
     padding-left: 50px;
@@ -128,7 +129,7 @@ body{
 .boton-enviar{
     width: 160px;
     max-width: 450px;
-    background-color: #22803e;
+    background-color: #4e8a60;
     border-radius: 5px;
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -154,8 +155,9 @@ body{
     color: #ffffff;
     margin-right: 10px;
 }
-@media screen and (min-width: 576px) {
-    .form-cont-opciones {
-      background-color: blue;
+@media screen and (min-width: 750px) {
+    .info-caja-cont {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
   }

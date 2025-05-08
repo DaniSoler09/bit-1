@@ -6,7 +6,7 @@ body{
 .cont-logo-nav{
     height: 100px;
     max-width: 950px;
-    background-color: #5E86AC;
+    background-color: #0a4881;
 }
 .cont-logo-rana{
   margin-right: 0px;
@@ -24,7 +24,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 3;
-    background-color: #5E86AC ;
+    background-color: #0a4881 ;
 }
 .container-fluid{
     max-width: 700px;
@@ -50,6 +50,7 @@ body{
 main{
     max-width: 950px;
     margin: auto;
+    background-color: #edf5f0;
 }
 .slide-pics{
     margin: auto;
@@ -94,6 +95,7 @@ main{
 .adultos-cont{
     margin: auto;
     max-width: 330px;
+    margin-top: 30px;
     height: 450px;
     background-color: #0B5293;
 }
@@ -209,3 +211,41 @@ main{
     color: #ffffff;
     margin-right: 10px;
 }
+@media screen and (min-width: 750px) {
+    .nuestros-programas {
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr 1fr;
+    }
+    .adultos-cont{
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .junior-cont{
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .grupales-cont{
+        width: 200px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .text-programas{
+        display: none;
+    }
+    .nuestros-programs{
+        padding-bottom: 15px;
+    }
+    .nuestros-programas h3{
+        padding-bottom: 210px;
+    }
+    .profe-cont{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }
+    .profe-cont h2{
+        padding-top: 200px;
+        font-size: 30px;
+    }
+  }
