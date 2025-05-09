@@ -211,28 +211,40 @@ main{
     color: #ffffff;
     margin-right: 10px;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
     .nuestros-programas {
       display: grid;
       grid-template-columns: 200px 1fr 1fr 1fr;
     }
+    .img-adultos-cont{
+        height: 250px;
+    }
     .adultos-cont{
-        width: 200px;
         margin-bottom: 20px;
         border-radius: 5px;
+    }
+    .adultos-cont, .junior-cont, .grupales-cont{
+        
+        width: 95%;
+    }
+    .img-junior-cont{
+        height: 250px;
     }
     .junior-cont{
-        width: 200px;
         margin-bottom: 20px;
         border-radius: 5px;
     }
+    .img-grupales-cont{
+        height: 250px;
+    }
     .grupales-cont{
-        width: 200px;
         margin-bottom: 20px;
         border-radius: 5px;
     }
     .text-programas{
-        display: none;
+        font-weight: 400;
+        font-size: 15px;
+
     }
     .nuestros-programs{
         padding-bottom: 15px;

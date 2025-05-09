@@ -89,7 +89,6 @@ body{
     font-size: 15px;
 }
 .form-cont{
-    margin: auto;
     max-width: 950px;
 }
 .form-cont-opciones{
@@ -111,7 +110,7 @@ body{
 }
 .details-cont{
     margin-bottom: 20px;
-    width: 75%;
+    width: 85%;
     height: 40px;
     max-width: 450px;
     border-radius: 5px;
@@ -119,7 +118,7 @@ body{
 }
 .details-cont-l{
     margin-bottom: 20px;
-    width: 75%;
+    width: 85%;
     height: 100px;
     max-width: 450px;
     border-radius: 5px;
@@ -136,7 +135,7 @@ body{
     margin-top: 30px;
     font-weight: 600;
     height: 40px;
-    width: 75%;
+    width: 85%;
     font-size: 20px;
 }
 .footer-cont{
@@ -155,9 +154,31 @@ body{
     color: #ffffff;
     margin-right: 10px;
 }
-@media screen and (min-width: 750px) {
-    .info-caja-cont {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+@media screen and (min-width: 768px) {
+    .padresote {
+      display: flex;
+      max-width: 950px;
+      margin: auto;
+      background-color: #4e8a60;
+
+    }
+    .form-cont-opciones{
+        padding-right: 45px;
+    }
+    .ubicanos-info-cont{
+        width: 50%;
+    }
+    .form-cont{
+        width: 50%;
+    }
+    .details-cont{
+        width: 100%;
+    }
+    .details-cont-l{
+        width: 100%;
+    }
+    .boton-enviar{
+        display: block;
+        margin: auto;
     }
   }
