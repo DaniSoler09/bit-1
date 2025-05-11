@@ -1,15 +1,15 @@
 # BIT- Academia De Tenis La Rana. 
 
-### Academia de Tenis La Rana es un proyecto en desarrollo que tiene como objetivo proporcionar a sus miembros una plataforma web intuitiva. Esta plataforma facilitará el acceso a información general y fomentará una interacción activa con el personal de la academia.
+#### Academia de Tenis La Rana es un proyecto en desarrollo que tiene como objetivo proporcionar a sus miembros una plataforma web intuitiva. Esta plataforma facilitará el acceso a información general y fomentará una interacción activa con el personal de la academia.
 
-## El desarrollo de la plataforma web de la Academia de Tenis La Rana se está llevando a cabo utilizando las siguientes tecnologías
+## Tecnologías Utilizadas
 * HTML
 * CSS
 * JavaScript
 
 ## Figma.
 
-![](C:\Users\Soler\Downloads\LA RANA ACADEMIA)
+![Figma-img](<LA RANA ACADEMIA..png>)
 
 #### Diseño y Desarrollo: Daniel Ramirez Soler
 
