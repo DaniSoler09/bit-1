@@ -137,6 +137,10 @@ body{
     padding-left: 10px;
     padding-bottom: 70px;
 }
+.alert{
+    max-width: 80%;
+    margin-bottom: 15px;
+}
 .boton-enviar{
     font-family: "Viaoda Libre", serif;
     width: 160px;

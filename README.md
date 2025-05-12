@@ -14,6 +14,6 @@
 
 ## Figma.
 
-![Figma-img](<LA RANA ACADEMIA..png>)
+![Figma](<LA RANA ACADEMIA..png>)
 
 #### Diseño y Desarrollo: Daniel Ramirez Soler
