@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont-logo-nav{
+    height: 100px;
+    max-width: 992px;
+    background-color: #0a4881;
+}
+.cont-logo-rana{
+  margin-right: 0px;
+  min-width: 70px;
+  height: 70px;
+  margin-top: 15px;
+}
+.rana-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100px;
+}
+.nav-cont{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: #0a4881 ;
+}
+.container-fluid{
+    max-width: 700px;
+}
+.titulo{
+    display: inline-block;
+    width: 50%;
+    margin-right: 11px;
+    text-align: center;
+}
+.burger{
+    background-color: #ffffff;
+}
+.collapse{
+    padding-left: 90px;
+}
+.opciones-academia{
+    text-align: end;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.titulo p{
+    font-family: "Viaoda Libre", serif;
+    color: #ffffff;
+    margin-top: 24px;
+}
+
+.nuestra-sede{
+    margin: auto;
+    max-width: 992px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: #edf5f0;
+}
+.nuestra-sede h2{
+    margin-bottom: 0px;
+    color: #0a4881;
+    font-weight: 400;
+    font-family: "Viaoda Libre", serif;
+}
+.insta-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 15px;
+    max-width: 992px;
+    padding: 10px 10px;
+    margin: auto;
+    background-color: #edf5f0;
+}
+.cont-img-1{
+    grid-column: 1/ span 3;
+}
+.cont-img-1 h2{
+    position: absolute;
+    width: 120px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: "Viaoda Libre", serif;
+}
+.insta-images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.practica-libre{
+    margin: auto;
+    max-width: 992px;
+    background-color: #edf5f0;
+}
+.cont-practica-text{
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cont-practica-text h2{
+    color: #0a4881;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+}
+.img-practica-libre{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.img-practica-libre img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer-cont{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 992px;
+    height: 180px;
+    margin: auto;
+    text-align: center;
+    background-color: #22803e;
+}
+.footer-cont p{
+    font-family: "Viaoda Libre", serif;
+    font-weight: 500;
+    font-size: 35px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.media-icons{
+    font-size: 40px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .practica-libre{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cont-img-1 h2{
+        margin-left: 60px;
+        margin-top: 50px;
+        width: 250px
+    }
+  }
+

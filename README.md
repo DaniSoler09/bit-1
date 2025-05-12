@@ -6,11 +6,14 @@
 * HTML
 * CSS
 * JavaScript
+* Booststrap
+
+## Metodologia
+
+* Mobile First
 
 ## Figma.
 
 ![Figma-img](<LA RANA ACADEMIA..png>)
 
 #### Diseño y Desarrollo: Daniel Ramirez Soler
-
-[def]: C:\Users\Soler\Downloads
